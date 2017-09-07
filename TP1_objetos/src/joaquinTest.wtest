@@ -1,0 +1,15 @@
+import joaquin.*
+
+describe "test del cantante joaquin"{
+	
+	test"saber cual es la habilidad de joaquin si esta en un grupo, deberia ser 25"{
+		joaquin.asignarHabilidad(20)
+		joaquin.ponerEnUnaBanda("pimpinela")
+		assert.equals(25, joaquin.saberHabilidad())
+	}
+	
+	test"saber cual es la habilidad de joaqun si fuera solista, deberia ser 20"{
+		joaquin.asignarHabilidad(20)
+		assert.equals(20, joaquin.saberHabilidad())
+	}
+}
