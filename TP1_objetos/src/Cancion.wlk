@@ -19,7 +19,7 @@ class Cancion {
 		return nombre
 	}
 	
-	method DameTuLetra(){
+	method dameTuLetra(){
 		return letra
 	}
 	
