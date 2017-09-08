@@ -24,7 +24,7 @@ object lucia {
 	}*/
 	
 	method interpretaBien(unaCancion){
-		return unaCancion.dameTuNombre().contains("familia")||unaCancion.daemTuLetra().contains("familia")
+		return unaCancion.dameTuNombre().contains("familia")||unaCancion.dameTuLetra().contains("familia")
 	}
 	
 	method costoDePresentacion(unaPresentacion){
